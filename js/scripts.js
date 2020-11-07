@@ -227,7 +227,7 @@
 
 
     /* Contact Form */
-    $("#contactForm").validator().on("submit", function(event) {
+   /* $("#contactForm").validator().on("submit", function(event) {
     	if (event.isDefaultPrevented()) {
             // handle the invalid form...
             cformError();
@@ -238,7 +238,7 @@
             csubmitForm();
         }
     });
-
+*/
     function csubmitForm() {
         // initiate variables with form content
 		var name = $("#cname").val();
