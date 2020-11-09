@@ -1,7 +1,7 @@
 # firefly-technology.github.io
 Website for Firefly Technology
 
-This is the website for Firefly Technology - a branch of Young Enterprise.
+This is [the website for Firefly Technology] (http://firefly-technology.github.io) - a branch of Young Enterprise.
 Any questions, please email [firefly-technology@outlook.com] (mailto:fireflytechnology@outlook.com)
 
 **Recent Changes / Additions**
