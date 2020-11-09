@@ -3,7 +3,7 @@ Website for Firefly Technology Guildford
 
 ---
 
-[This is the website for Firefly Technology](http://firefly-technology.github.io) - a branch of Young Enterprise.
+This is the website for Firefly Technology [(actual page link)](http://firefly-technology.github.io) - a branch of Young Enterprise.
 
 
 Any questions, please email [firefly-technology@outlook.com](mailto:fireflytechnology@outlook.com)
