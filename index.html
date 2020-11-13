@@ -347,7 +347,7 @@
 </div> <!-- end of cards-2 -->
 <!-- end of services -->
 <!-- Scripts to confirm form fill-->
-<script> function confirmForm(url) {
+<script defer> function confirmForm(url) {
     if (window.confirm("This product is not for sale yet. Do you wish to find out more by filling in the contact form?")) { 
   window.open("#contact", "_self");
 }
@@ -658,7 +658,7 @@
             <div class="row">
                 <div class="col-lg-5 col-xl-6">
                     <div class="image-container">
-                        <img class="img-fluid" src="images/about.jpg" alt="alternative">
+                        <img class="img-fluid" src="images/about.jpg" alt="alternative" loading=lazy>
                     </div> <!-- end of image-container -->
                 </div> <!-- end of col -->
                 <div class="col-lg-7 col-xl-6">
@@ -1042,7 +1042,7 @@
     <!-- end of copyright -->
     	
     <!-- Scripts -->
-    <script src="lazysizes.min.js" async></script> <!-- Lazy Loaf Images-->
+    <script src="lazysizes.min.js" async></script> <!-- Lazy Load Images-->
     <script src="js/jquery.min.js"></script> <!-- jQuery for Bootstrap's JavaScript plugins -->
     <script src="js/popper.min.js"></script> <!-- Popper tooltip library for Bootstrap -->
     <script src="js/bootstrap.min.js"></script> <!-- Bootstrap framework -->
