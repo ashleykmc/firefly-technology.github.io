@@ -1,0 +1,3 @@
+User-agent: Googlebot
+Disallow: /images/intro-office.jpg
+Disallow: /images/services-2.jpg
