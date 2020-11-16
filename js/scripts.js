@@ -31,7 +31,7 @@
 			var $anchor = $(this);
 			$('html, body').stop().animate({
 				scrollTop: $($anchor.attr('href')).offset().top
-			}, 650, 'easeInOutExpo');
+			}, 1650, 'easeInOutExpo');
 			event.preventDefault();
 		});
 	});
@@ -142,7 +142,7 @@
 					},
 					complete: function() {
 					$this.text(this.countNum);
-					alert('finished');
+					//alert('finished');
 					}
 				});
 			});
