@@ -31,7 +31,7 @@
 			var $anchor = $(this);
 			$('html, body').stop().animate({
 				scrollTop: $($anchor.attr('href')).offset().top
-			}, 1650, 'easeInOutExpo');
+			}, 1250, 'easeInOutExpo');
 			event.preventDefault();
 		});
 	});
