@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <atom:link href="https://firefly-technology.github.io/feed.xml" rel="self" type="application/rss+xml" />
+    <title>Firefly Technology (Guildford)</title>
+    <link>http://firefly-technology.github.io</link>
+    <description>Firefly's News RSS Feed</description>
+    <language>en-gb</language>    
+    <image>
+      <title>Icon</title>
+      <link>http://firefly-technology.github.io</link>
+      <url>https://firefly-technology.github.io/images/icon.jpg</url>
+      <width>70</width>
+      <height>70</height>
+    </image>
+    <item>
+      <title>Do Not Deskturb Almost Ready for Preorders</title>
+      <pubDate>Tue, 17 Nov 2020 09:20:21 GMT</pubDate>
+      <link>https://firefly-technology.github.io/#callMe</link>
+      <guid>http://firefly-technology.github.io/item001</guid>
+      <description>Coming in the next few weeks. Follow us on social media or newsletter to find out first.</description>
+    </item>
+    <item>
+      <title>Follow us or leave a review on Google</title>
+      <pubDate>Wed, 18 Nov 2020 09:04:21 GMT</pubDate>
+      <link>https://g.page/firefly-technology-guildford?gm</link>
+      <guid>http://firefly-technology.github.io/item002</guid>
+      <description>Get the latest news and leave a review on our Google Business Profile</description>
+    </item>
+  </channel>
+</rss>
