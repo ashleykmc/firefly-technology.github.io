@@ -78,6 +78,10 @@ body, p {
 	padding-left: 1.25rem;
 }
 
+.noclick {
+	cursor: default;
+}
+
 h1 {
 	color: #484a46;
 	font: 700 2.5rem/3rem "Montserrat", sans-serif;
