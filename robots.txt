@@ -1,3 +1,8 @@
 User-agent: Googlebot
 Disallow: /images/intro-office.jpg
 Disallow: /images/services-2.jpg
+Disallow: /images/services-3.jpg
+Disallow: /images/about.jpg
+Disallow: /images/header-background.jpg
+Disallow: /images/details-1-background.jpg
+Disallow: /images/meet-team
