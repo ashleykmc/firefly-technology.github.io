@@ -79,7 +79,7 @@ body, p {
 }
 
 .noclick {
-	cursor: default;
+	cursor: pointer;
 }
 
 h1 {
