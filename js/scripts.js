@@ -340,7 +340,7 @@
         function live()
         {
         // return TRUE if it's Mon through Sat, 3a-6a UTC
-        if (hourofday < 15) {
+        if (hourofday > 15) {
         var liveb = document.getElementById("liveb"); 
         liveb.setAttribute("class", "btn-solid-reg"); 
         var liveb2 = document.getElementById("liveb2"); 
