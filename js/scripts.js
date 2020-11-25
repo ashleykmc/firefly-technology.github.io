@@ -351,7 +351,7 @@
         var liveb = document.getElementById("liveb"); 
         liveb.setAttribute("class", "btn-solid-no"); 
         var liveb2 = document.getElementById("liveb2"); 
-        liveb2.setAttribute("class", "btn-solid-reg");
+        liveb2.setAttribute("class", "btn-solid-no");
         return false;
         }
         function tolive()
