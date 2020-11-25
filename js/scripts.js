@@ -339,8 +339,8 @@
         var hourofday = thedate.getUTCHours();
         function live()
         {
-        // return TRUE if it's Mon through Sat, 3a-6a UTC
-        if (hourofday > 15 && dayofweek == 4) {
+        // replace with 4 for thursday and 5 for fri. hours of day is normal uk time
+        if (hourofday > 15 && dayofweek == 6) {
         var liveb = document.getElementById("liveb"); 
         liveb.setAttribute("class", "btn-solid-reg"); 
         var liveb2 = document.getElementById("liveb2"); 
@@ -349,6 +349,10 @@
         liveb3.setAttribute("class", "btn-solid-reg"); 
         var liveb4 = document.getElementById("liveb4"); 
         liveb4.setAttribute("class", "btn-solid-reg"); 
+        element = document.querySelector("liven"); 
+        element.style.visibility = 'visible'; 
+        element2 = document.querySelector("liveno"); 
+        element2.style.visibility = 'hidden'; 
         return true;
         }
         var liveb = document.getElementById("liveb"); 
@@ -359,12 +363,13 @@
         liveb3.setAttribute("class", "btn-solid-un"); 
         var liveb4 = document.getElementById("liveb4"); 
         liveb4.setAttribute("class", "btn-solid-un"); 
+        element = document.querySelector("liven"); 
+        element.style.visibility = 'hidden'; 
+        element2 = document.querySelector("liveno"); 
+        element2.style.visibility = 'visible'; 
         return false;
         }
-        function tolive()
-        {
-        return 16 - hourofday;
-        }
+
 
     /* Back To Top Button */
     // create the back to top button
