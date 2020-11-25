@@ -352,6 +352,9 @@
         var d;
         d=document.getElementById("liven");
         d.innerHTML="Preorder now open - limited stock available";
+        var e;
+        e=document.getElementById("liven2");
+        e.innerHTML="Preorder now open - limited stock available";
         return true;
         }
         var liveb = document.getElementById("liveb"); 
@@ -365,6 +368,9 @@
         var d;
         d=document.getElementById("liven");
         d.innerHTML="Preorder opening within the next 48 hours - limited stock available";
+        var e;
+        e=document.getElementById("liven2");
+        e.innerHTML="Preorder opening within the next 48 hours - limited stock available";
         return false;
         }
 
