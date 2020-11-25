@@ -342,11 +342,11 @@
         if (dayofweek != 4 &&
         ((hourofday > 15))) {
         var liveb = document.getElementById("liveb"); 
-        liveb.setAttribute("style", "class:btn-solid-reg"); 
+        liveb.setAttribute("class", "btn-solid-reg"); 
         return true;
         }
         var liveb = document.getElementById("liveb"); 
-        liveb.setAttribute("style", "class:btn-solid-no"); 
+        liveb.setAttribute("class", "btn-solid-no"); 
         return false;
         }
         function tolive()
