@@ -345,12 +345,20 @@
         liveb.setAttribute("class", "btn-solid-reg"); 
         var liveb2 = document.getElementById("liveb2"); 
         liveb2.setAttribute("class", "btn-solid-reg"); 
+        var liveb3 = document.getElementById("liveb3"); 
+        liveb3.setAttribute("class", "btn-solid-reg"); 
+        var liveb4 = document.getElementById("liveb4"); 
+        liveb4.setAttribute("class", "btn-solid-reg"); 
         return true;
         }
         var liveb = document.getElementById("liveb"); 
         liveb.setAttribute("class", "btn-solid-no"); 
         var liveb2 = document.getElementById("liveb2"); 
         liveb2.setAttribute("class", "btn-solid-no");
+        var liveb3 = document.getElementById("liveb3"); 
+        liveb3.setAttribute("class", "btn-solid-un"); 
+        var liveb4 = document.getElementById("liveb4"); 
+        liveb4.setAttribute("class", "btn-solid-un"); 
         return false;
         }
         function tolive()
