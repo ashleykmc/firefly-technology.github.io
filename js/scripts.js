@@ -357,10 +357,10 @@
         e.innerHTML="Preorder now open - limited stock available";
         var f;
         f=document.getElementById("liven3");
-        f.innerHTML="N.B.: Limited stock available! Order now to avoid disappointment";
+        f.innerHTML="<strong><i>N.B.: Limited stock available! Order now to avoid disappointment</i></strong>";
         var g;
         g=document.getElementById("liven4");
-        g.innerHTML="N.B.: Limited stock available! Order now to avoid disappointment - don't worry if you miss out though, we'll have a new batch soon.";
+        g.innerHTML="<strong><i>N.B.: Limited stock available! Order now to avoid disappointment - don't worry if you miss out though, we'll have a new batch soon.</i></strong>";
         return true;
         }
         var liveb = document.getElementById("liveb"); 
@@ -373,10 +373,10 @@
         liveb4.setAttribute("class", "btn-solid-un"); 
         var d;
         d=document.getElementById("liven");
-        d.innerHTML="Preorder opening within the next 48 hours - limited stock available";
+        d.innerHTML="<strong><i>Preorder opening within the next 48 hours - limited stock available</i></strong>";
         var e;
         e=document.getElementById("liven2");
-        e.innerHTML="Preorder opening within the next 48 hours - limited stock available";
+        e.innerHTML="<strong><i>Preorder opening within the next 48 hours - limited stock available</i></strong>";
         var f;
         f=document.getElementById("liven3");
         f.innerHTML="N.B.: Our limited stock is almost available for preorder. Check back soon.";
