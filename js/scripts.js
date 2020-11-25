@@ -11,7 +11,8 @@
 				preloader.fadeOut(preloaderFadeOutTime);
 			}, 700);
 		}
-		hidePreloader();
+        hidePreloader();
+        live()
 	});
 
 	
