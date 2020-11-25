@@ -340,14 +340,18 @@
         function live()
         {
         // return TRUE if it's Mon through Sat, 3a-6a UTC
-        if (dayofweek = 4 &&
+        if (dayofweek = 5 &&
         ((hourofday > 15))) {
         var liveb = document.getElementById("liveb"); 
         liveb.setAttribute("class", "btn-solid-reg"); 
+        var liveb2 = document.getElementById("liveb2"); 
+        liveb2.setAttribute("class", "btn-solid-reg"); 
         return true;
         }
         var liveb = document.getElementById("liveb"); 
         liveb.setAttribute("class", "btn-solid-no"); 
+        var liveb2 = document.getElementById("liveb2"); 
+        liveb2.setAttribute("class", "btn-solid-reg");
         return false;
         }
         function tolive()
