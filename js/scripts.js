@@ -349,10 +349,9 @@
         liveb3.setAttribute("class", "btn-solid-reg"); 
         var liveb4 = document.getElementById("liveb4"); 
         liveb4.setAttribute("class", "btn-solid-reg"); 
-        element = document.querySelector("liven"); 
-        element.style.visibility = 'visible'; 
-        element2 = document.querySelector("liveno"); 
-        element2.style.visibility = 'hidden'; 
+        var d;
+        d=document.getElementById("liven");
+        d.innerHTML="Preorder now open - limited stock available";
         return true;
         }
         var liveb = document.getElementById("liveb"); 
@@ -363,10 +362,9 @@
         liveb3.setAttribute("class", "btn-solid-un"); 
         var liveb4 = document.getElementById("liveb4"); 
         liveb4.setAttribute("class", "btn-solid-un"); 
-        element = document.querySelector("liven"); 
-        element.style.visibility = 'hidden'; 
-        element2 = document.querySelector("liveno"); 
-        element2.style.visibility = 'visible'; 
+        var d;
+        d=document.getElementById("liven");
+        d.innerHTML="Preorder opening within the next 48 hours - limited stock available";
         return false;
         }
 
