@@ -332,7 +332,23 @@
         }
         $("#pmsgSubmit").removeClass().addClass(msgClasses).text(msg);
     }
-    
+//Date live function
+    var thedate   = new Date();
+        var dayofweek = thedate.getUTCDay();
+        var hourofday = thedate.getUTCHours();
+        function live()
+        {
+        // return TRUE if it's Mon through Sat, 3a-6a UTC
+        if (dayofweek = 4 &&
+        ((hourofday > 15))) {
+        return true;
+        }
+        return false;
+        }
+        function tolive()
+        {
+        return 16 - hourofday;
+        }
 
     /* Back To Top Button */
     // create the back to top button
