@@ -340,7 +340,7 @@
         function live()
         {
         // replace with 4 for thursday and 5 for fri. hours of day is normal uk time
-        if (hourofday > 15 && dayofweek == 3) {
+        if (hourofday > 15 && dayofweek == 4) {
         var liveb = document.getElementById("liveb"); 
         liveb.setAttribute("class", "btn-solid-reg"); 
         var liveb2 = document.getElementById("liveb2"); 
@@ -355,6 +355,12 @@
         var e;
         e=document.getElementById("liven2");
         e.innerHTML="Preorder now open - limited stock available";
+        var f;
+        f=document.getElementById("liven3");
+        f.innerHTML="N.B.: Limited stock available! Order now to avoid disappointment";
+        var g;
+        g=document.getElementById("liven4");
+        g.innerHTML="N.B.: Limited stock available! Order now to avoid disappointment - don't worry if you miss out though, we'll have a new batch soon.";
         return true;
         }
         var liveb = document.getElementById("liveb"); 
@@ -371,9 +377,15 @@
         var e;
         e=document.getElementById("liven2");
         e.innerHTML="Preorder opening within the next 48 hours - limited stock available";
+        var f;
+        f=document.getElementById("liven3");
+        f.innerHTML="N.B.: Our limited stock is almost available for preorder. Check back soon.";
+        var g;
+        g=document.getElementById("liven4");
+        g.innerHTML="N.B.: Our limited stock is almost available for preorder. Check back soon.";
         return false;
         }
-
+        
 
     /* Back To Top Button */
     // create the back to top button
