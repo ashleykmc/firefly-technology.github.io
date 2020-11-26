@@ -340,7 +340,7 @@
         function live()
         {
         // replace with 4 for thursday and 5 for fri. hours of day is normal uk time
-        if (hourofday > 15 && dayofweek == 4) {
+        if (hourofday > 15 && dayofweek == 5) {
         var liveb = document.getElementById("liveb"); 
         liveb.setAttribute("class", "btn-solid-reg"); 
         var liveb2 = document.getElementById("liveb2"); 
@@ -373,16 +373,16 @@
         liveb4.setAttribute("class", "btn-solid-un"); 
         var d;
         d=document.getElementById("liven");
-        d.innerHTML="<strong><i>Preorder opening within the next 48 hours - limited stock available</i></strong>";
+        d.innerHTML="<strong><i>Preorder opening at 3pm on Friday - limited stock available</i></strong>";
         var e;
         e=document.getElementById("liven2");
-        e.innerHTML="<strong><i>Preorder opening within the next 48 hours - limited stock available</i></strong>";
+        e.innerHTML="<strong><i>Preorder opening at 3pm on Friday - limited stock available</i></strong>";
         var f;
         f=document.getElementById("liven3");
-        f.innerHTML="N.B.: Our limited stock is almost available for preorder. Check back soon.";
+        f.innerHTML="N.B.: Our limited stock is almost available for preorder. Check back in the next few days.";
         var g;
         g=document.getElementById("liven4");
-        g.innerHTML="N.B.: Our limited stock is almost available for preorder. Check back soon.";
+        g.innerHTML="N.B.: Our limited stock is almost available for preorder. Check back in the next few days.";
         return false;
         }
         
