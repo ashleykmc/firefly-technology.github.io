@@ -339,8 +339,8 @@
         var hourofday = thedate.getUTCHours();
         function live()
         {
-        // replace with 4 for thursday and 5 for fri. hours of day is normal uk time
-        if (hourofday > 15 && dayofweek >= 4) {
+        // replace with 4 for thursday and 5 for fri. hours of day is normal uk time hourofday > 15 && paste in
+        if (dayofweek >= 4) {
         var liveb = document.getElementById("liveb"); 
         liveb.setAttribute("class", "btn-solid-reg"); 
         var liveb2 = document.getElementById("liveb2"); 
