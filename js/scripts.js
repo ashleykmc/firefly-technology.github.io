@@ -391,10 +391,9 @@
     
     function stock()
     {
-        var orinstock = true
-        var sminstock = false
-        // replace with 4 for thursday and 5 for fri. hours of day is normal uk time hourofday > 15 && paste in
-        if (orinstock) {
+        var orinstock = 1
+        var sminstock = 0
+        if (orinstock == 1) {
         var liveb = document.getElementById("liveb"); 
         liveb.setAttribute("class", "btn-solid-reg"); 
         var liveb2 = document.getElementById("liveb2"); 
@@ -417,7 +416,7 @@
         e=document.getElementById("liven2");
         e.innerHTML="<strong><i>Preorder opening at 3pm on Friday - limited stock available</i></strong>";
         }
-        if (sminstock) {
+        if (sminstock == 1) {
 
             var liveb3 = document.getElementById("liveb3"); 
             liveb3.setAttribute("class", "btn-solid-reg"); 
@@ -441,7 +440,8 @@
             g=document.getElementById("liven4");
             g.innerHTML="N.B.: Our limited stock is almost available for preorder. Check back in the next few days.";
             }
-        }
+    }
+    
     /* Back To Top Button */
     // create the back to top button
     $('body').prepend('<a href="body" class="back-to-top page-scroll">Back to Top</a>');
