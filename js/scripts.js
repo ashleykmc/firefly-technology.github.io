@@ -388,10 +388,11 @@
         return false;
         } */
 
-    var orinstock = true
-    var sminstock = false
+    
     function stock()
     {
+        var orinstock = true
+        var sminstock = false
         // replace with 4 for thursday and 5 for fri. hours of day is normal uk time hourofday > 15 && paste in
         if (orinstock) {
         var liveb = document.getElementById("liveb"); 
