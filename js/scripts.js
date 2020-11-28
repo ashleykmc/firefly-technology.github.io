@@ -333,8 +333,8 @@
         }
         $("#pmsgSubmit").removeClass().addClass(msgClasses).text(msg);
     }
-//Date live function
-   /*  var thedate   = new Date();
+        //Date live function
+        /*  var thedate   = new Date();
         var dayofweek = thedate.getUTCDay();
         var hourofday = thedate.getUTCHours();
         var orinstock = true
@@ -404,8 +404,7 @@
         var e;
         e=document.getElementById("liven2");
         e.innerHTML="Preorder now open - limited stock available";
-        return true;
-        }
+        } else {
         var liveb = document.getElementById("liveb"); 
         liveb.setAttribute("class", "btn-solid-no"); 
         var liveb2 = document.getElementById("liveb2"); 
@@ -416,7 +415,6 @@
         var e;
         e=document.getElementById("liven2");
         e.innerHTML="<strong><i>Preorder opening at 3pm on Friday - limited stock available</i></strong>";
-        return false;
     }
         if (sminstock == true) {
 
@@ -430,8 +428,7 @@
             var g;
             g=document.getElementById("liven4");
             g.innerHTML="<strong><i>N.B.: Limited stock available! Order now to avoid disappointment - don't worry if you miss out though, we'll have a new batch soon.</i></strong>";
-            return true;
-            }
+            } else {
             var liveb3 = document.getElementById("liveb3"); 
             liveb3.setAttribute("class", "btn-solid-un"); 
             var liveb4 = document.getElementById("liveb4"); 
@@ -442,8 +439,7 @@
             var g;
             g=document.getElementById("liven4");
             g.innerHTML="N.B.: Our limited stock is almost available for preorder. Check back in the next few days.";
-            return false;
-    }
+    }}
     /* Back To Top Button */
     // create the back to top button
     $('body').prepend('<a href="body" class="back-to-top page-scroll">Back to Top</a>');
