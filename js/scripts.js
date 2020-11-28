@@ -389,7 +389,7 @@
         } */
 
     var orinstock = true
-    var sminstock = true
+    var sminstock = false
     function stock()
     {
         // replace with 4 for thursday and 5 for fri. hours of day is normal uk time hourofday > 15 && paste in
