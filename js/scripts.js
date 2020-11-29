@@ -401,14 +401,14 @@
         var d;
         d=document.getElementById("liven");
         d.innerHTML="Preorder now open - limited stock available";
-        var e;
-        e=document.getElementById("liven2");
-        e.innerHTML="Preorder now open - limited stock available";
+        var f;
+            f=document.getElementById("liven3");
+            f.innerHTML="<strong><i>N.B.: Limited stock available! Order now to avoid disappointment</i></strong>";
         } else {
         var liveb = document.getElementById("liveb"); 
         liveb.setAttribute("class", "btn-solid-no"); 
-        var liveb2 = document.getElementById("liveb2"); 
-        liveb2.setAttribute("class", "btn-solid-no"); 
+        var liveb4 = document.getElementById("liveb4"); 
+            liveb4.setAttribute("class", "btn-solid-un");
         var d;
         d=document.getElementById("liven");
         d.innerHTML="<strong><i>Preorder opening at 3pm on Friday - limited stock available</i></strong>";
@@ -426,17 +426,19 @@
             var liveb2 = document.getElementById("liveb2"); 
             liveb2.setAttribute("class", "btn-solid-reg"); 
 
-            var f;
-            f=document.getElementById("liven3");
-            f.innerHTML="<strong><i>N.B.: Limited stock available! Order now to avoid disappointment</i></strong>";
+            
+            var e;
+            e=document.getElementById("liven2");
+            e.innerHTML="Preorder now open - limited stock available";
             var g;
             g=document.getElementById("liven4");
             g.innerHTML="<strong><i>N.B.: Limited stock available! Order now to avoid disappointment - don't worry if you miss out though, we'll have a new batch soon.</i></strong>";
             } else {
             var liveb3 = document.getElementById("liveb3"); 
             liveb3.setAttribute("class", "btn-solid-un"); 
-            var liveb4 = document.getElementById("liveb4"); 
-            liveb4.setAttribute("class", "btn-solid-un"); 
+            var liveb2 = document.getElementById("liveb2"); 
+        liveb2.setAttribute("class", "btn-solid-no"); 
+             
             var f;
             f=document.getElementById("liven3");
             f.innerHTML="N.B.: Our limited stock is almost available for preorder. Check back in the next few days.";
