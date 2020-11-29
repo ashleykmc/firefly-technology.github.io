@@ -414,10 +414,10 @@
             
         var d;
         d=document.getElementById("liveno");
-        d.innerHTML="<strong><i>Out of stock</i></strong>";
+        d.innerHTML="<strong><i>Out of stock. Don't worry, we're getting some more stock ready now!</i></strong>";
         var e;
         e=document.getElementById("liveno1");
-        e.innerHTML="<strong><i>Out of stock</i></strong>";
+        e.innerHTML="<strong><i>NB: Currently out of stock</i></strong>";
         }
     }
     function stocks() {
@@ -444,10 +444,10 @@
              
             var f;
             f=document.getElementById("livens");
-            f.innerHTML="<strong><i>Out of stock. We'll have a new batch soon.</i></strong>";
+            f.innerHTML="<strong><i>Out of stock. Don't worry, we're getting some more stock ready now!</i></strong>";
             var g;
             g=document.getElementById("livens1");
-            g.innerHTML="N.B.: Out of stock.";
+            g.innerHTML="N.B.: Currently out of stock.";
         }
     }
     
