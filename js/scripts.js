@@ -404,7 +404,7 @@
         d.innerHTML="Preorder now open - limited stock available";
         var f;
             f=document.getElementById("liveno1");
-            f.innerHTML="<strong><i>N.B.: Limited stock available! Order now to avoid disappointment.</i></strong>";
+            f.innerHTML="<strong><i>Limited stock available! Order now to avoid disappointment.</i></strong>";
         } else {
         
         var liveb2 = document.getElementById("livebo1"); 
@@ -414,10 +414,10 @@
             
         var d;
         d=document.getElementById("liveno");
-        d.innerHTML="<strong><i>Out of stock. Don't worry, we're getting some more stock ready now!</i></strong>";
+        d.innerHTML="<strong><i>Out of stock. Don't worry, we're getting some more stock ready for next week!</i></strong>";
         var e;
         e=document.getElementById("liveno1");
-        e.innerHTML="<strong><i>NB: Currently out of stock</i></strong>";
+        e.innerHTML="<strong><i>Currently out of stock. Click for more details</i></strong>";
         }
     }
     function stocks() {
@@ -435,7 +435,7 @@
             e.innerHTML="Preorder now open - limited stock available";
             var g;
             g=document.getElementById("livens");
-            g.innerHTML="<strong><i>N.B.: Limited stock available! Order now to avoid disappointment - don't worry if you miss out though, we'll have a new batch soon.</i></strong>";
+            g.innerHTML="<strong><i>Limited stock available! Order now to avoid disappointment - don't worry if you miss out though, we'll have a new batch soon.</i></strong>";
             } else {
             var liveb3 = document.getElementById("livebs1"); 
             liveb3.setAttribute("class", "btn-solid-un"); 
@@ -444,10 +444,10 @@
              
             var f;
             f=document.getElementById("livens");
-            f.innerHTML="<strong><i>Out of stock. Don't worry, we're getting some more stock ready now!</i></strong>";
+            f.innerHTML="<strong><i>Out of stock. Don't worry, we're getting some more stock ready for next week!</i></strong>";
             var g;
             g=document.getElementById("livens1");
-            g.innerHTML="N.B.: Currently out of stock.";
+            g.innerHTML="Currently out of stock. Click for more details";
         }
     }
     
