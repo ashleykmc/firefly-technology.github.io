@@ -392,7 +392,7 @@
     
     function stocko()
     {
-        var orinstock = 1
+        var orinstock = 0
         if (orinstock == 1) {
         var liveb = document.getElementById("liveb"); 
         liveb.setAttribute("class", "btn-solid-reg"); 
@@ -418,7 +418,7 @@
         }
     }
     function stocks() {
-        var sminstock = 0
+        var sminstock = 1
         if (sminstock == 1) {
             
             var liveb3 = document.getElementById("liveb3"); 
