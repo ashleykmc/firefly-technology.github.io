@@ -400,10 +400,10 @@
             liveb4.setAttribute("class", "btn-solid-reg"); 
         
         var d;
-            d=document.getElementById("liveno");
+            d=document.getElementById("liveno1");
             d.innerHTML="<strong><i>Preorder now open - limited stock available</i></strong>";
         var f;
-            f=document.getElementById("liveno1");
+            f=document.getElementById("liveno");
             f.innerHTML="<strong><i>Limited stock available! Order now to avoid disappointment.</i></strong>";
         } else {
         
@@ -413,10 +413,10 @@
             liveb4.setAttribute("class", "btn-solid-no");
             liveb4.href = ""
         var d;
-            d=document.getElementById("liveno");
+            d=document.getElementById("liveno1");
             d.innerHTML="<strong><i>Out of stock. Don't worry, we're getting some more stock ready for next week!</i></strong>";
         var e;
-            e=document.getElementById("liveno1");
+            e=document.getElementById("liveno");
             e.innerHTML="<strong><i>Currently out of stock. Click for more details</i></strong>";
         }
     }
