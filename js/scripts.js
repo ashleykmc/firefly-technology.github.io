@@ -392,7 +392,7 @@
     
     function stocko()
     {
-        var orinstock = 0
+        var orinstock = 1
         if (orinstock == 1) {
         var liveb = document.getElementById("livebo1"); 
         liveb.setAttribute("class", "btn-solid-reg"); 
@@ -404,7 +404,7 @@
         d.innerHTML="Preorder now open - limited stock available";
         var f;
             f=document.getElementById("liveno1");
-            f.innerHTML="<strong><i>N.B.: Limited stock available! Order now to avoid disappointment</i></strong>";
+            f.innerHTML="<strong><i>N.B.: Limited stock available! Order now to avoid disappointment.</i></strong>";
         } else {
         
         var liveb2 = document.getElementById("livebo1"); 
