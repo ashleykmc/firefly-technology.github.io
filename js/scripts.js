@@ -410,7 +410,7 @@
         var liveb2 = document.getElementById("livebo1"); 
             liveb2.setAttribute("class", "btn-solid-un"); 
         var liveb4 = document.getElementById("livebo"); 
-            liveb4.setAttribute("class", "btn-solid-un");
+            liveb4.setAttribute("class", "btn-solid-no");
             
         var d;
         d=document.getElementById("liveno");
@@ -421,7 +421,7 @@
         }
     }
     function stocks() {
-        var sminstock = 1
+        var sminstock = 0
         if (sminstock == 1) {
             var liveb = document.getElementById("livebs1"); 
         liveb.setAttribute("class", "btn-solid-reg"); 
@@ -440,7 +440,7 @@
             var liveb3 = document.getElementById("livebs1"); 
             liveb3.setAttribute("class", "btn-solid-un"); 
             var liveb2 = document.getElementById("livebs"); 
-            liveb2.setAttribute("class", "btn-solid-un"); 
+            liveb2.setAttribute("class", "btn-solid-no"); 
              
             var f;
             f=document.getElementById("livens");
