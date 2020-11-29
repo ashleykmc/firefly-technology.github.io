@@ -421,7 +421,7 @@
         }
     }
     function stocks() {
-        var sminstock = 0
+        var sminstock = 1
         if (sminstock == 1) {
             var liveb = document.getElementById("livebs1"); 
         liveb.setAttribute("class", "btn-solid-reg"); 
