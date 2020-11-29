@@ -394,58 +394,59 @@
     {
         var orinstock = 0
         if (orinstock == 1) {
-        var liveb = document.getElementById("liveb"); 
+        var liveb = document.getElementById("livebo1"); 
         liveb.setAttribute("class", "btn-solid-reg"); 
-        var liveb4 = document.getElementById("liveb4"); 
+        var liveb4 = document.getElementById("livebo"); 
         liveb4.setAttribute("class", "btn-solid-reg"); 
         
         var d;
-        d=document.getElementById("liven");
+        d=document.getElementById("liveno");
         d.innerHTML="Preorder now open - limited stock available";
         var f;
-            f=document.getElementById("liven3");
+            f=document.getElementById("liveno1");
             f.innerHTML="<strong><i>N.B.: Limited stock available! Order now to avoid disappointment</i></strong>";
         } else {
-        var liveb = document.getElementById("liveb"); 
-        liveb.setAttribute("class", "btn-solid-no"); 
-        var liveb4 = document.getElementById("liveb4"); 
+        
+        var liveb2 = document.getElementById("livebo1"); 
+            liveb2.setAttribute("class", "btn-solid-reg"); 
+        var liveb4 = document.getElementById("livebo"); 
             liveb4.setAttribute("class", "btn-solid-un");
             
         var d;
-        d=document.getElementById("liven");
+        d=document.getElementById("liveno");
         d.innerHTML="<strong><i>Preorder opening at 3pm on Friday - limited stock available</i></strong>";
         var e;
-        e=document.getElementById("liven2");
+        e=document.getElementById("liveno1");
         e.innerHTML="<strong><i>Preorder opening at 3pm on Friday - limited stock available</i></strong>";
         }
     }
     function stocks() {
         var sminstock = 1
         if (sminstock == 1) {
-            
-            var liveb3 = document.getElementById("liveb3"); 
+            var liveb = document.getElementById("livebs1"); 
+        liveb.setAttribute("class", "btn-solid-no"); 
+            var liveb3 = document.getElementById("livebs"); 
             liveb3.setAttribute("class", "btn-solid-reg"); 
-            var liveb2 = document.getElementById("liveb2"); 
-            liveb2.setAttribute("class", "btn-solid-reg"); 
+            
 
             
             var e;
-            e=document.getElementById("liven2");
+            e=document.getElementById("livens1");
             e.innerHTML="Preorder now open - limited stock available";
             var g;
-            g=document.getElementById("liven4");
+            g=document.getElementById("livens");
             g.innerHTML="<strong><i>N.B.: Limited stock available! Order now to avoid disappointment - don't worry if you miss out though, we'll have a new batch soon.</i></strong>";
             } else {
-            var liveb3 = document.getElementById("liveb3"); 
+            var liveb3 = document.getElementById("livebs1"); 
             liveb3.setAttribute("class", "btn-solid-un"); 
-            var liveb2 = document.getElementById("liveb2"); 
+            var liveb2 = document.getElementById("livebs"); 
             liveb2.setAttribute("class", "btn-solid-un"); 
              
             var f;
-            f=document.getElementById("liven3");
+            f=document.getElementById("livens");
             f.innerHTML="N.B.: Our limited stock is almost available for preorder. Check back in the next few days.";
             var g;
-            g=document.getElementById("liven4");
+            g=document.getElementById("livens1");
             g.innerHTML="N.B.: Our limited stock is almost available for preorder. Check back in the next few days.";
         }
     }
