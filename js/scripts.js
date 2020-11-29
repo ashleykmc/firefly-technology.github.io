@@ -396,8 +396,8 @@
         if (orinstock == 1) {
         var liveb = document.getElementById("liveb"); 
         liveb.setAttribute("class", "btn-solid-reg"); 
-        var liveb2 = document.getElementById("liveb2"); 
-        liveb2.setAttribute("class", "btn-solid-reg"); 
+        var liveb4 = document.getElementById("liveb4"); 
+        liveb4.setAttribute("class", "btn-solid-reg"); 
         var d;
         d=document.getElementById("liven");
         d.innerHTML="Preorder now open - limited stock available";
@@ -423,8 +423,9 @@
             
             var liveb3 = document.getElementById("liveb3"); 
             liveb3.setAttribute("class", "btn-solid-reg"); 
-            var liveb4 = document.getElementById("liveb4"); 
-            liveb4.setAttribute("class", "btn-solid-reg"); 
+            var liveb2 = document.getElementById("liveb2"); 
+            liveb2.setAttribute("class", "btn-solid-reg"); 
+
             var f;
             f=document.getElementById("liven3");
             f.innerHTML="<strong><i>N.B.: Limited stock available! Order now to avoid disappointment</i></strong>";
