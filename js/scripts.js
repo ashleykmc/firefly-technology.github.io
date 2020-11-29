@@ -398,6 +398,7 @@
         liveb.setAttribute("class", "btn-solid-reg"); 
         var liveb4 = document.getElementById("liveb4"); 
         liveb4.setAttribute("class", "btn-solid-reg"); 
+        
         var d;
         d=document.getElementById("liven");
         d.innerHTML="Preorder now open - limited stock available";
@@ -409,6 +410,7 @@
         liveb.setAttribute("class", "btn-solid-no"); 
         var liveb4 = document.getElementById("liveb4"); 
             liveb4.setAttribute("class", "btn-solid-un");
+            
         var d;
         d=document.getElementById("liven");
         d.innerHTML="<strong><i>Preorder opening at 3pm on Friday - limited stock available</i></strong>";
@@ -437,7 +439,7 @@
             var liveb3 = document.getElementById("liveb3"); 
             liveb3.setAttribute("class", "btn-solid-un"); 
             var liveb2 = document.getElementById("liveb2"); 
-        liveb2.setAttribute("class", "btn-solid-no"); 
+            liveb2.setAttribute("class", "btn-solid-un"); 
              
             var f;
             f=document.getElementById("liven3");
