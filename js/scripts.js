@@ -12,7 +12,8 @@
 			}, 700);
 		}
         hidePreloader();
-        stock()
+        stocko()
+        stocks()
 	});
 
 	
@@ -389,10 +390,9 @@
         } */
 
     
-    function stock()
+    function stocko()
     {
         var orinstock = 1
-        var sminstock = 0
         if (orinstock == 1) {
         var liveb = document.getElementById("liveb"); 
         liveb.setAttribute("class", "btn-solid-reg"); 
@@ -416,8 +416,11 @@
         e=document.getElementById("liven2");
         e.innerHTML="<strong><i>Preorder opening at 3pm on Friday - limited stock available</i></strong>";
         }
+    }
+    function stocks() {
+        var sminstock = 0
         if (sminstock == 1) {
-
+            
             var liveb3 = document.getElementById("liveb3"); 
             liveb3.setAttribute("class", "btn-solid-reg"); 
             var liveb4 = document.getElementById("liveb4"); 
@@ -439,7 +442,7 @@
             var g;
             g=document.getElementById("liven4");
             g.innerHTML="N.B.: Our limited stock is almost available for preorder. Check back in the next few days.";
-            }
+        }
     }
     
     /* Back To Top Button */
