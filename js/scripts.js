@@ -408,23 +408,23 @@
         } else {
         
         var liveb2 = document.getElementById("livebo1"); 
-            liveb2.setAttribute("class", "btn-solid-reg"); 
+            liveb2.setAttribute("class", "btn-solid-un"); 
         var liveb4 = document.getElementById("livebo"); 
             liveb4.setAttribute("class", "btn-solid-un");
             
         var d;
         d=document.getElementById("liveno");
-        d.innerHTML="<strong><i>Preorder opening at 3pm on Friday - limited stock available</i></strong>";
+        d.innerHTML="<strong><i>Out of stock</i></strong>";
         var e;
         e=document.getElementById("liveno1");
-        e.innerHTML="<strong><i>Preorder opening at 3pm on Friday - limited stock available</i></strong>";
+        e.innerHTML="<strong><i>Out of stock</i></strong>";
         }
     }
     function stocks() {
         var sminstock = 1
         if (sminstock == 1) {
             var liveb = document.getElementById("livebs1"); 
-        liveb.setAttribute("class", "btn-solid-no"); 
+        liveb.setAttribute("class", "btn-solid-reg"); 
             var liveb3 = document.getElementById("livebs"); 
             liveb3.setAttribute("class", "btn-solid-reg"); 
             
@@ -444,10 +444,10 @@
              
             var f;
             f=document.getElementById("livens");
-            f.innerHTML="N.B.: Our limited stock is almost available for preorder. Check back in the next few days.";
+            f.innerHTML="<strong><i>Out of stock. We'll have a new batch soon.</i></strong>";
             var g;
             g=document.getElementById("livens1");
-            g.innerHTML="N.B.: Our limited stock is almost available for preorder. Check back in the next few days.";
+            g.innerHTML="N.B.: Out of stock.";
         }
     }
     
