@@ -401,7 +401,7 @@
         
         var d;
             d=document.getElementById("liveno1");
-            d.innerHTML="<strong><i>Preorder now open - limited stock available</i></strong>";
+            d.innerHTML="<strong><i>Order now - limited stock available</i></strong>";
         var f;
             f=document.getElementById("liveno");
             f.innerHTML="<strong><i>Limited stock available! Order now to avoid disappointment.</i></strong>";
@@ -429,7 +429,7 @@
             liveb3.setAttribute("class", "btn-solid-reg");     
         var e;
             e=document.getElementById("livens1");
-            e.innerHTML="<strong><i>Preorder now open - limited stock available</i></strong>";
+            e.innerHTML="<strong><i>Order now - limited stock available</i></strong>";
         var g;
             g=document.getElementById("livens");
             g.innerHTML="<strong><i>Limited stock available! Order now to avoid disappointment - don't worry if you miss out though, we'll have a new batch soon.</i></strong>";
