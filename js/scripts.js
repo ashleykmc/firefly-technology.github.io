@@ -429,7 +429,7 @@
             liveb3.setAttribute("class", "btn-solid-reg");     
         var e;
             e=document.getElementById("livens1");
-            e.innerHTML="<strong><i>Grab yourself a deal, now only £20. Order now - limited stock available</i></strong>";
+            e.innerHTML="<strong><i>New lower price - now only £20. Order now - limited stock available</i></strong>";
         var g;
             g=document.getElementById("livens");
             g.innerHTML="<strong><i>Limited stock available! Order now to avoid disappointment.</i></strong>";
