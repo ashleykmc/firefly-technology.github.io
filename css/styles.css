@@ -272,6 +272,11 @@ strong {
 	text-decoration: none;
 }
 
+.list-unstyled2 {
+	color: #14bf98;
+	font-size: 0.5rem;
+	line-height: 1.375rem;
+}
 .form-group {
 	position: relative;
 	margin-bottom: 1.25rem;
