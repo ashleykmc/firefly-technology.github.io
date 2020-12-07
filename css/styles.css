@@ -1835,11 +1835,19 @@ a:hover.back-to-top {
 	background-color: #153e52;
 	text-align: center;
 }
-
+.ex-header1 {
+	padding-top: 8rem;
+	padding-bottom: 5rem;
+	background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.5)), url('../images/services-2.JPG') center center no-repeat;
+	background-size: cover;
+	text-align: center;
+}
 .ex-header h1 {
 	color: #fff;
 }
-
+.ex-header1 h1 {
+	color: #fff;
+}
 .ex-basic-1 {
 	padding-top: 2rem;
 	padding-bottom: 0.875rem;
