@@ -2075,7 +2075,10 @@ a:hover.back-to-top {
 		padding-top: 11rem;
 		padding-bottom: 9rem;
 	}
-
+	.ex-header1 {
+		padding-top: 11rem;
+		padding-bottom: 9rem;
+	}
 	.ex-basic-2 .form-container {
 		margin-top: 0.5rem;
 	}
@@ -2306,7 +2309,11 @@ a:hover.back-to-top {
 		margin-right: auto;
 		margin-left: auto;
 	}
-
+	.ex-header1 h1 {
+		width: 80%;
+		margin-right: auto;
+		margin-left: auto;
+	}
 	.ex-basic-2 {
 		padding-bottom: 5rem;
 	}
@@ -2480,7 +2487,11 @@ a:hover.back-to-top {
 		margin-right: auto;
 		margin-left: auto;
 	}
-
+	.ex-header1 h1 {
+		width: 60%;
+		margin-right: auto;
+		margin-left: auto;
+	}
 	.ex-basic-2 .form-container {
 		margin-left: 1.75rem;
 	}
