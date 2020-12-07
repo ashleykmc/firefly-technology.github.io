@@ -70,6 +70,9 @@ body, p {
 	text-align: center;
 }
 
+.p-info {
+	margin-bottom: 3.5rem;
+}
 .li-space-lg li {
 	margin-bottom: 0.375rem;
 }
