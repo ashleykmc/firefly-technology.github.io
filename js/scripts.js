@@ -404,7 +404,7 @@
             d.innerHTML="<strong><i>Order now - limited stock available</i></strong>";
         var f;
             f=document.getElementById("liveno");
-            f.innerHTML="<strong><i>Limited stock available! Order now to avoid disappointment.</i></strong>";
+            f.innerHTML="<strong><i>Limited stock available!</i></strong>";
         } else {
         
         var liveb2 = document.getElementById("livebo1"); 
@@ -432,7 +432,7 @@
             e.innerHTML="<strong><i>New lower price - now only £20. Order now - limited stock available</i></strong>";
         var g;
             g=document.getElementById("livens");
-            g.innerHTML="<strong><i>Limited stock available! Order now to avoid disappointment.</i></strong>";
+            g.innerHTML="<strong><i>Limited stock available.</i></strong>";
         } else {
         var liveb3 = document.getElementById("livebs1"); 
             liveb3.setAttribute("class", "btn-solid-un"); 
