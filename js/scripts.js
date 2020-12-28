@@ -123,11 +123,11 @@
     
 
     /* Counter - CountTo */
-	var a = 0;
+	var scroll = 0;
 	$(window).scroll(function() {
 		if ($('#counter').length) { // checking if CountTo section exists in the page, if not it will not run the script and avoid errors	
 			var oTop = $('#counter').offset().top - window.innerHeight;
-			if (a == 0 && $(window).scrollTop() > oTop) {
+			if (scroll == 0 && $(window).scrollTop() > oTop) {
 			$('.counter-value').each(function() {
 				var $this = $(this),
 				countTo = $this.attr('data-count');
